@@ -1,0 +1,37 @@
+{
+    "dataset": {
+        "id": 2288715,
+        "dataset_code": "ORB",
+        "database_code": "OPEC",
+        "name": "OPEC Crude Oil Price",
+        "description": "Reference Price for the OPEC Crude Oil Basket.  Currently includes: Saharan Blend (Algeria), Girassol (Angola), Oriente (Ecuador), Iran Heavy (Islamic Republic of Iran), Basra Light (Iraq), Kuwait Export (Kuwait), Es Sider (Libya), Bonny Light (Nigeria), Qatar Marine (Qatar), Arab Light (Saudi Arabia), Murban (UAE) and Merey (Venezuela).",
+        "refreshed_at": "2022-04-05T12:25:38.630Z",
+        "newest_available_date": "2022-04-04",
+        "oldest_available_date": "2003-01-02",
+        "column_names": [
+            "Date",
+            "Value"
+        ],
+        "frequency": "daily",
+        "type": "Time Series",
+        "premium": false,
+        "limit": null,
+        "transform": null,
+        "column_index": null,
+        "start_date": "2003-01-02",
+        "end_date": "2022-04-04",
+        "data": [
+            [
+                "2003-01-03",
+                30.83
+            ],
+            [
+                "2003-01-02",
+                30.05
+            ]
+        ],
+        "collapse": null,
+        "order": null,
+        "database_id": 381
+    }
+}
