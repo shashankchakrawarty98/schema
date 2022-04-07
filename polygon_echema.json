@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "name": "defaultName",
+  "type": "record",
+  "namespace": "defaultNamespace",
+  "fields": [
+    {
+      "name": "ticker",
+      "type": "string"
+    },
+    {
+      "name": "queryCount",
+      "type": "int"
+    },
+    {
+      "name": "resultsCount",
+      "type": "int"
+    },
+    {
+      "name": "adjusted",
+      "type": "boolean"
+    },
+    {
+      "name": "results",
+      "type": {
+        "type": "array",
+        "items": {
+          "name": "results_record",
+          "type": "record",
+          "fields": [
+            {
+              "name": "v",
+              "type": "double"
+            },
+            {
+              "name": "vw",
+              "type": "float"
+            },
+            {
+              "name": "o",
+              "type": "float"
+            },
+            {
+              "name": "c",
+              "type": "float"
+            },
+            {
+              "name": "h",
+              "type": "float"
+            },
+            {
+              "name": "l",
+              "type": "float"
+            },
+            {
+              "name": "t",
+              "type": "long"
+            },
+            {
+              "name": "n",
+              "type": "int"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "status",
+      "type": "string"
+    },
+    {
+      "name": "request_id",
+      "type": "string"
+    },
+    {
+      "name": "count",
+      "type": "int"
+    }
+  ]
+}
